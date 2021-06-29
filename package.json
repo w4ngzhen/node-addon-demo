@@ -1,0 +1,13 @@
+{
+  "name": "node-addon-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp configure && node-gyp build",
+    "run:demo": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
